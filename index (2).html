@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube - Broadcast Yourself</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #E5E5E5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            font-size: 13px;
+        }
+        
+        #header {
+            background-color: #FFFFFF;
+            border-bottom: 1px solid #CCCCCC;
+            padding: 10px;
+            height: 60px;
+        }
+        
+        #logo {
+            float: left;
+        }
+        
+        #logo img {
+            height: 50px;
+        }
+        
+        #search {
+            float: left;
+            margin-left: 20px;
+            padding-top: 15px;
+        }
+        
+        #search input[type="text"] {
+            width: 300px;
+            padding: 5px;
+            border: 1px solid #CCCCCC;
+        }
+        
+        #search input[type="submit"] {
+            padding: 5px 10px;
+            background-color: #F8F8F8;
+            border: 1px solid #CCCCCC;
+            color: #333;
+        }
+        
+        #user-links {
+            float: right;
+            padding-top: 15px;
+        }
+        
+        #user-links a {
+            color: #0066CC;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+        
+        #nav {
+            background-color: #FFFFFF;
+            border-bottom: 1px solid #CCCCCC;
+            padding: 5px 10px;
+        }
+        
+        #nav a {
+            color: #0066CC;
+            text-decoration: none;
+            margin-right: 15px;
+            font-weight: bold;
+        }
+        
+        #content {
+            width: 960px;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        
+        .section {
+            margin-bottom: 20px;
+            background-color: #FFFFFF;
+            border: 1px solid #CCCCCC;
+        }
+        
+        .section-header {
+            background-color: #F8F8F8;
+            padding: 5px 10px;
+            border-bottom: 1px solid #CCCCCC;
+            font-weight: bold;
+        }
+        
+        .section-content {
+            padding: 10px;
+            overflow: hidden;
+        }
+        
+        .video-box {
+            float: left;
+            width: 140px;
+            margin: 0 10px 15px 0;
+            text-align: center;
+        }
+        
+        .video-thumb {
+            width: 140px;
+            height: 105px;
+            background-color: #000;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 5px;
+            font-size: 10px;
+        }
+        
+        .video-title {
+            font-weight: bold;
+            margin-bottom: 3px;
+        }
+        
+        .video-stats {
+            color: #666;
+            font-size: 11px;
+        }
+        
+        .clear {
+            clear: both;
+        }
+        
+        #footer {
+            clear: both;
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 11px;
+            border-top: 1px solid #CCCCCC;
+            margin-top: 20px;
+        }
+        
+        #footer a {
+            color: #0066CC;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+        
+        .ad {
+            background-color: #FFF8DC;
+            border: 1px dashed #CCC;
+            padding: 10px;
+            margin-bottom: 15px;
+            text-align: center;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div id="logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdyuVplEw5ZxyfyTPaVxjl3uCqZJCyslaQOg&s" alt="YouTube Logo">
+        </div>
+        
+        <div id="search">
+            <form action="#" method="get">
+                <input type="text" name="search_query" value="">
+                <input type="submit" value="Search">
+            </form>
+        </div>
+        
+        <div id="user-links">
+            <a href="#">Home</a>
+            <a href="#">Videos</a>
+            <a href="#">Channels</a>
+            <a href="#">Categories</a>
+            <a href="#">Upload</a>
+            <a href="#">Sign In</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+    
+    <div id="nav">
+        <a href="#">Home</a>
+        <a href="#">Videos</a>
+        <a href="#">Categories</a>
+        <a href="#">Channels</a>
+        <a href="#">Community</a>
+    </div>
+    
+    <div id="content">
+        <div class="ad">
+            [Advertisement Space - 2007 YouTube had Google AdSense ads here]
+        </div>
+        
+        <div class="section">
+            <div class="section-header">Featured Videos</div>
+            <div class="section-content">
+                <div class="video-box">
+                    <div class="video-thumb">[Featured Video 1]</div>
+                    <div class="video-title">Charlie bit my finger</div>
+                    <div class="video-stats">12M views</div>
+                </div>
+                
+                <div class="video-box">
+                    <div class="video-thumb">[Featured Video 2]</div>
+                    <div class="video-title">Evolution of Dance</div>
+                    <div class="video-stats">50M views</div>
+                </div>
+                
+                <div class="video-box">
+                    <div class="video-thumb">[Featured Video 3]</div>
+                    <div class="video-title">Leave Britney Alone!</div>
+                    <div class="video-stats">8M views</div>
+                </div>
+                
+                <div class="video-box">
+                    <div class="video-thumb">[Featured Video 4]</div>
+                    <div class="video-title">Dramatic Chipmunk</div>
+                    <div class="video-stats">15M views</div>
+                </div>
+                
+                <div class="video-box">
+                    <div class="video-thumb">[Featured Video 5]</div>
+                    <div class="video-title">Potter Puppet Pals</div>
+                    <div class="video-stats">20M views</div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="section-header">Most Viewed</div>
+            <div class="section-content">
+                <div class="video-box">
+                    <div class="video-thumb">[Most Viewed 1]</div>
+                    <div class="video-title">Mentos and Coke</div>
+                    <div class="video-stats">80M views</div>
+                </div>
+                
+                <div class="video-box">
+                    <div class="video-thumb">[Most Viewed 2]</div>
+                    <div class="video-title">Lazy Sunday</div>
+                    <div class="video-stats">45M views</div>
+                </div>
+                
+                <div class="video-box">
+                    <div class="video-thumb">[Most Viewed 3]</div>
+                    <div class="video-title">OK Go Treadmill</div>
+                    <div class="video-stats">35M views</div>
+                </div>
+                
+                <div class="video-box">
+                    <div class="video-thumb">[Most Viewed 4]</div>
+                    <div class="video-title">Sneezing Panda</div>
+                    <div class="video-stats">30M views</div>
+                </div>
+                
+                <div class="video-box">
+                    <div class="video-thumb">[Most Viewed 5]</div>
+                    <div class="video-title">Star Wars Kid</div>
+                    <div class="video-stats">25M views</div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="section-header">Recently Featured</div>
+            <div class="section-content">
+                <div class="video-box">
+                    <div class="video-thumb">[Recent 1]</div>
+                    <div class="video-title">Chocolate Rain</div>
+                    <div class="video-stats">10M views</div>
+                </div>
+                
+                <div class="video-box">
+                    <div class="video-thumb">[Recent 2]</div>
+                    <div class="video-title">Numa Numa</div>
+                    <div class="video-stats">18M views</div>
+                </div>
+                
+                <div class="video-box">
+                    <div class="video-thumb">[Recent 3]</div>
+                    <div class="video-title">Shoes</div>
+                    <div class="video-stats">5M views</div>
+                </div>
+                
+                <div class="video-box">
+                    <div class="video-thumb">[Recent 4]</div>
+                    <div class="video-title">End of Ze World</div>
+                    <div class="video-stats">12M views</div>
+                </div>
+                
+                <div class="video-box">
+                    <div class="video-thumb">[Recent 5]</div>
+                    <div class="video-title">Badger Badger</div>
+                    <div class="video-stats">15M views</div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="footer">
+        <a href="#">About</a> | 
+        <a href="#">Terms</a> | 
+        <a href="#">Privacy</a> | 
+        <a href="#">Contact</a> | 
+        <a href="#">Partners</a> | 
+        <a href="#">Help</a>
+        <br>
+        &copy; 2007 YouTube, LLC
+    </div>
+</body>
+</html>
